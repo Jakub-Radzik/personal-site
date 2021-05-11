@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/radzikoska123/Portfolio/static/css/main.75387d03.chunk.css",
+    "main.js": "/radzikoska123/Portfolio/static/js/main.67a99f29.chunk.js",
+    "main.js.map": "/radzikoska123/Portfolio/static/js/main.67a99f29.chunk.js.map",
+    "runtime-main.js": "/radzikoska123/Portfolio/static/js/runtime-main.f4c653db.js",
+    "runtime-main.js.map": "/radzikoska123/Portfolio/static/js/runtime-main.f4c653db.js.map",
+    "static/js/2.ec7a3d83.chunk.js": "/radzikoska123/Portfolio/static/js/2.ec7a3d83.chunk.js",
+    "static/js/2.ec7a3d83.chunk.js.map": "/radzikoska123/Portfolio/static/js/2.ec7a3d83.chunk.js.map",
+    "static/js/3.a0a145e2.chunk.js": "/radzikoska123/Portfolio/static/js/3.a0a145e2.chunk.js",
+    "static/js/3.a0a145e2.chunk.js.map": "/radzikoska123/Portfolio/static/js/3.a0a145e2.chunk.js.map",
+    "index.html": "/radzikoska123/Portfolio/index.html",
+    "static/css/main.75387d03.chunk.css.map": "/radzikoska123/Portfolio/static/css/main.75387d03.chunk.css.map",
+    "static/js/2.ec7a3d83.chunk.js.LICENSE.txt": "/radzikoska123/Portfolio/static/js/2.ec7a3d83.chunk.js.LICENSE.txt",
+    "static/media/Jakub Radzik alfa.943ee359.pdf": "/radzikoska123/Portfolio/static/media/Jakub Radzik alfa.943ee359.pdf",
+    "static/media/cv.2cf21801.png": "/radzikoska123/Portfolio/static/media/cv.2cf21801.png",
+    "static/media/github.f1102180.png": "/radzikoska123/Portfolio/static/media/github.f1102180.png",
+    "static/media/profile.066d5409.jpg": "/radzikoska123/Portfolio/static/media/profile.066d5409.jpg",
+    "static/media/telegram2.e9722f26.png": "/radzikoska123/Portfolio/static/media/telegram2.e9722f26.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c653db.js",
+    "static/js/2.ec7a3d83.chunk.js",
+    "static/css/main.75387d03.chunk.css",
+    "static/js/main.67a99f29.chunk.js"
+  ]
+}
