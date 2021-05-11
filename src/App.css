@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+.animationHeightChangerSmall{
+  animation: heightChangerSmall 0.3s forwards;
+}
+
+.animationHeightChangerBig{
+  animation: heightChangerBig 0.3s forwards;
+}
+
+@keyframes heightChangerSmall {
+  from {
+    height: 100px;
+  }
+  to {
+    height: 50px;
+  }
+}
+
+@keyframes heightChangerBig {
+  from {
+    height: 50px;
+  }
+  to {
+    height: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes Rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes Rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
