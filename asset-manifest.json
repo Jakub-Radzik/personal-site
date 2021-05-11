@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jakub-radzik/static/css/main.75387d03.chunk.css",
-    "main.js": "/jakub-radzik/static/js/main.67a99f29.chunk.js",
-    "main.js.map": "/jakub-radzik/static/js/main.67a99f29.chunk.js.map",
+    "main.js": "/jakub-radzik/static/js/main.9ca90b65.chunk.js",
+    "main.js.map": "/jakub-radzik/static/js/main.9ca90b65.chunk.js.map",
     "runtime-main.js": "/jakub-radzik/static/js/runtime-main.4e14fb29.js",
     "runtime-main.js.map": "/jakub-radzik/static/js/runtime-main.4e14fb29.js.map",
     "static/js/2.4949fda8.chunk.js": "/jakub-radzik/static/js/2.4949fda8.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.4e14fb29.js",
     "static/js/2.4949fda8.chunk.js",
     "static/css/main.75387d03.chunk.css",
-    "static/js/main.67a99f29.chunk.js"
+    "static/js/main.9ca90b65.chunk.js"
   ]
 }
