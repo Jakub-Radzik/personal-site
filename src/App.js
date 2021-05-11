@@ -10,12 +10,22 @@ function App() {
       width: 100%;
       height: 100vh;
       background: yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3em;
+      text-align: center;
     `
 
     const Divb = styled.div`
       width: 100%;
       height: 100vh;
       background: deepskyblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3em;
+      text-align: center;
     `
 
 
@@ -23,8 +33,8 @@ function App() {
       <div className="App">
           <Overview/>
           <Header/>
-          <Diva/>
-          <Divb/>
+          <Diva>Here you will find a lot of great content soon</Diva>
+          <Divb>Here you will find a lot of great content soon</Divb>
       </div>
   );
 }
