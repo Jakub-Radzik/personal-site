@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25915db2-b8d2-4b29-ade3-f5082d5b8f4b" name="Default Changelist" comment="">
+    <list default="true" id="25915db2-b8d2-4b29-ade3-f5082d5b8f4b" name="Default Changelist" comment="build">
+      <change afterPath="$PROJECT_DIR$/src/Components/Cube.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.67a99f29.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.67a99f29.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.a0a145e2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.a0a145e2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.9ca90b65.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.9ca90b65.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/Jakub Radzik alfa.943ee359.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/SocialButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SocialButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Overview/LeftOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/LeftOverview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Overview/Overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/Overview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Overview/RightOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/RightOverview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documents/Jakub Radzik alfa.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JustJoinITCopy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,6 +58,25 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jakub\Desktop\PROGRAMOWANIE PO GODZINACH\jakub-radzik.ovh\src\Images" />
+      <recent name="C:\Users\jakub\Desktop\PROGRAMOWANIE PO GODZINACH\jakub-radzik.ovh\src\Documents" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jakub\Desktop\PROGRAMOWANIE PO GODZINACH\jakub-radzik.ovh\src\Images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Images/test.js" working-dir="$PROJECT_DIR$/src/Images">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +85,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620723831005</updated>
-      <workItem from="1620723833893" duration="2221000" />
+      <workItem from="1620723833893" duration="3066000" />
+      <workItem from="1620750997596" duration="1017000" />
+      <workItem from="1620757360446" duration="3153000" />
+      <workItem from="1620812074727" duration="151000" />
+      <workItem from="1620895751540" duration="4608000" />
+      <workItem from="1620921901605" duration="2907000" />
+      <workItem from="1620934146035" duration="4420000" />
+      <workItem from="1621533122695" duration="99000" />
+      <workItem from="1622135027262" duration="2065000" />
+      <workItem from="1622714485651" duration="129000" />
+      <workItem from="1624950857363" duration="427000" />
+      <workItem from="1624961471233" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="initial 2">
       <created>1620724519996</created>
@@ -67,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620725326036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homepage change">
+      <created>1620728059191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728059191</updated>
+    </task>
+    <task id="LOCAL-00005" summary="build">
+      <created>1620728136028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728136028</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,11 +149,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial 2" />
     <MESSAGE value="initial 3" />
     <MESSAGE value="making placeholder" />
-    <option name="LAST_COMMIT_MESSAGE" value="making placeholder" />
+    <MESSAGE value="homepage change" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
 </project>

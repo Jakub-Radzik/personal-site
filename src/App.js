@@ -1,26 +1,16 @@
 import './App.css';
-import Header from "./Components/Header/Header";
-import React,{useEffect, useState, useRef} from "react";
+import React, {useState} from "react";
 import Overview from "./Components/Overview/Overview";
 import styled from "styled-components";
+import ProjectCard from "./Components/Projects/ProjectCard";
+import {Projects} from "./Components/Common/ProjectList"
 
 function App() {
-
-    const Diva = styled.div`
-      width: 100%;
-      height: 100vh;
-      background: yellow;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 3em;
-      text-align: center;
-    `
 
     const Divb = styled.div`
       width: 100%;
       height: 100vh;
-      background: deepskyblue;
+      background: #61ff00;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -28,17 +18,35 @@ function App() {
       text-align: center;
     `
 
+    const ProjectsWrapper = styled.div`
+      max-width: 2000px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid #000;
+    `
 
     return (
-      <div className="App">
-          <Overview/>
-          <Header/>
-          <Diva>Here you will find a lot of great content soon</Diva>
-          <Divb>Here you will find a lot of great content soon</Divb>
-      </div>
-  );
+        <div className="App">
+            <Overview/>
+            <ProjectsWrapper>
+                {
+                    Projects.map(project =>
+                        <ProjectCard
+                            title={project.title}
+                            description={project.description}
+                            banner={project.banner}
+                            stack={project.stack}
+                        />
+                    )
+                }
+            </ProjectsWrapper>
+        </div>
+    );
 }
-
 
 
 export default App;

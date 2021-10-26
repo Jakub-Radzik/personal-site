@@ -1,27 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.75387d03.chunk.css",
-    "main.js": "/static/js/main.9ca90b65.chunk.js",
-    "main.js.map": "/static/js/main.9ca90b65.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.48c35cc8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.48c35cc8.js.map",
-    "static/js/2.9035f3a7.chunk.js": "/static/js/2.9035f3a7.chunk.js",
-    "static/js/2.9035f3a7.chunk.js.map": "/static/js/2.9035f3a7.chunk.js.map",
-    "static/js/3.a0a145e2.chunk.js": "/static/js/3.a0a145e2.chunk.js",
-    "static/js/3.a0a145e2.chunk.js.map": "/static/js/3.a0a145e2.chunk.js.map",
+    "main.js": "/static/js/main.1089c394.chunk.js",
+    "main.js.map": "/static/js/main.1089c394.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d30869c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d30869c3.js.map",
+    "static/js/2.db2607fa.chunk.js": "/static/js/2.db2607fa.chunk.js",
+    "static/js/2.db2607fa.chunk.js.map": "/static/js/2.db2607fa.chunk.js.map",
+    "static/js/3.07c93e38.chunk.js": "/static/js/3.07c93e38.chunk.js",
+    "static/js/3.07c93e38.chunk.js.map": "/static/js/3.07c93e38.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.75387d03.chunk.css.map": "/static/css/main.75387d03.chunk.css.map",
-    "static/js/2.9035f3a7.chunk.js.LICENSE.txt": "/static/js/2.9035f3a7.chunk.js.LICENSE.txt",
-    "static/media/Jakub Radzik alfa.943ee359.pdf": "/static/media/Jakub Radzik alfa.943ee359.pdf",
+    "static/js/2.db2607fa.chunk.js.LICENSE.txt": "/static/js/2.db2607fa.chunk.js.LICENSE.txt",
+    "static/media/Jakub Radzik CV ENG.9a5821d4.pdf": "/static/media/Jakub Radzik CV ENG.9a5821d4.pdf",
+    "static/media/Jakub Radzik CV PL.2971e215.pdf": "/static/media/Jakub Radzik CV PL.2971e215.pdf",
+    "static/media/cloudy.9a5b54f5.png": "/static/media/cloudy.9a5b54f5.png",
+    "static/media/css-3.463e319b.png": "/static/media/css-3.463e319b.png",
     "static/media/cv.2cf21801.png": "/static/media/cv.2cf21801.png",
     "static/media/github.f1102180.png": "/static/media/github.f1102180.png",
+    "static/media/html.6e930594.png": "/static/media/html.6e930594.png",
     "static/media/profile.066d5409.jpg": "/static/media/profile.066d5409.jpg",
-    "static/media/telegram2.e9722f26.png": "/static/media/telegram2.e9722f26.png"
+    "static/media/react.0b337422.png": "/static/media/react.0b337422.png",
+    "static/media/sass.91714f74.png": "/static/media/sass.91714f74.png",
+    "static/media/telegram2.e9722f26.png": "/static/media/telegram2.e9722f26.png",
+    "static/media/weather2.ed63c937.jpeg": "/static/media/weather2.ed63c937.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.48c35cc8.js",
-    "static/js/2.9035f3a7.chunk.js",
+    "static/js/runtime-main.d30869c3.js",
+    "static/js/2.db2607fa.chunk.js",
     "static/css/main.75387d03.chunk.css",
-    "static/js/main.9ca90b65.chunk.js"
+    "static/js/main.1089c394.chunk.js"
   ]
 }

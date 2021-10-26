@@ -18,22 +18,24 @@ function Header() {
         // console.log(window.pageYOffset);
     }
 
-    useEffect(() => {
-        function watchScroll() {
-            window.addEventListener("scroll", logit);
-        }
-        watchScroll();
-        return () => {
-            window.removeEventListener("scroll", logit);
-        };
-
-    }, []);
+    // useEffect(() => {
+    //     function watchScroll() {
+    //         window.addEventListener("scroll", logit);
+    //     }
+    //     watchScroll();
+    //     return () => {
+    //         window.removeEventListener("scroll", logit);
+    //     };
+    //
+    // }, []);
 
     const Header = styled(Navigation)`
       background-color: #C1292E;
       position: -webkit-sticky;
       display: flex;
       align-items: center;
+      height: 100px;
+      opacity: 0.8;
     `;
 
     const Responsive = styled.nav`
@@ -44,6 +46,12 @@ function Header() {
       align-items: center;
       max-width: 1900px;
       width: 100%;
+      @media(max-width: 1800px){
+        //font-size: 2em;
+      }
+      @media(max-width: 1000px){
+        flex-direction: column;
+      }
     `;
 
     return (

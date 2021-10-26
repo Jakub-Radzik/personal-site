@@ -11,10 +11,9 @@ function Overview() {
       100%{background-position:0% 28%}
     `;
 
-
-
     const Overview = styled.div`
-      height: 100vh;
+      min-height: 100vh;
+      padding: 30px 0;
       width: 100%;
       //background: #235789;
       color: #FDFFFC;
@@ -31,10 +30,15 @@ function Overview() {
       -moz-animation: ${GradientAnimation} 18s ease infinite;
       animation: ${GradientAnimation} 18s ease infinite;
 
+      @media (max-width: 1800px) {
+        flex-direction: column;
+      }
+      
+
     `
 
     return (
-        <Overview>
+        <Overview id={"overview"}>
             <LeftOverview/>
             <RightOverview/>
         </Overview>

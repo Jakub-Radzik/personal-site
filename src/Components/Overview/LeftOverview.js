@@ -11,6 +11,13 @@ function LeftOverview() {
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      @media(max-width: 1800px){
+        justify-content: center;
+        width: 80%;
+      }
+      @media(max-width: 1000px){
+        width: 100%;
+      }
     `;
 
     const Profile = styled.img`
@@ -28,16 +35,27 @@ function LeftOverview() {
       width: 90%;
       height: auto;
       font-size: 1.2em;
-      text-align: justify;
+      //text-align: justify;
       font-family: 'Ubuntu Mono', monospace;
       line-height: 40px;
-      text-indent: 100px;
+      //text-indent: 100px;
+      @media(max-width: 1000px){
+        line-height: 25px;
+      }
     `;
 
     const Circle = styled.div`
-      width: 500px;
       height: 500px;
+      width: 500px;
       position: relative;
+      @media (max-width: 1800px) {
+        height: 300px;
+        width: 300px;
+      }
+      @media (max-width: 700px) {
+        height: 200px;
+        width: 200px;
+      }
     `
 
     const rotate = keyframes`
@@ -55,7 +73,6 @@ function LeftOverview() {
     const timingFunction = 'linear';
 
     const Border = styled.div`
-      /* content: ''; */
       position: absolute;
       top: 0;
       bottom: 0;
@@ -83,7 +100,7 @@ function LeftOverview() {
     return (
         <Left>
             <Circle>
-                <Border></Border>
+                <Border/>
                 <Profile src={profile} alt="me"/>
             </Circle>
 
