@@ -38,8 +38,11 @@ function App() {
                         <ProjectCard
                             title={project.title}
                             description={project.description}
-                            banner={project.banner}
                             stack={project.stack}
+                            banner={project.banner}
+                            repoURL={project.repoURL}
+                            siteURL={project.siteURL}
+                            universityRepo = {project.universityRepo}
                         />
                     )
                 }
