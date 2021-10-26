@@ -4,18 +4,24 @@ import Tag from "../Common/Tag";
 import Button from "../Common/Button";
 
 function ProjectCard({title, description, stack, repoURL, siteURL, banner, universityRepo}) {
+    const background = '#bf5b5b';
+    const background2 = '#c14949';
+
     const Card = styled.div`
+      background: ${background};
+      color: white;
       width: 90%;
       max-width: 800px;
-      height: 650px;
-      outline: 5px solid #000;
+      min-height: 650px;
+      outline: 5px solid ${background};
+      outline-offset: -2px;
       border-radius: 20px;
       margin: 20px;
     `;
 
     const ImageCard = styled.div`
       width: 100%;
-      height: 400px;
+      height: 40vh;
       border-radius: 20px 20px 0 0;
       background-image: url(${banner});
       background-repeat: no-repeat;
@@ -24,12 +30,17 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
     `
 
     const Title = styled.h1`
-      background: white;
-      border-radius: 30px;
+      background: ${background};
+      text-transform: uppercase;
+      font-size: clamp(1rem, 5vw, 2rem);
+      letter-spacing: 2px;
+      border-radius: 30px 30px 0 0;
+      border-bottom: 5px solid transparent;
       width: 60%;
-      transform: translateY(-70px);
-      height: 100px;
+      transform: translateY(-85px);
+      height: 60px;
       margin: auto;
+      padding: 20px 10px 0 10px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -37,21 +48,24 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
 
     const Content = styled.div`
       transform: translateY(-50px);
-      border: 1px solid #000;
-      margin: 10px 20px;
     `
 
     const Description = styled.p`
+      padding: 10px 20px;
       text-align: justify;
-      border: 1px solid #000;
+      margin: 0 2px;
     `
 
     const Stack = styled.div`
-      border: 1px solid #000;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
+      padding: 10px 20px;
+      margin: 0 2px;
+      background: #ffffff;
+      border-top: 5px dashed black;
+      border-bottom: 5px dashed black;
     `
 
     const StackImage = styled.img`
@@ -62,7 +76,16 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
     const Buttons = styled.div`
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      @media(min-width: 300px){
+        justify-content: space-around;
+      }
+      *{
+        background: ${background2};
+      }
     `
 
     return (
@@ -81,16 +104,35 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
                 </Stack>
                 <Buttons>
                     {
-                        repoURL && <div> repo < /div>
+                        repoURL && <LinkButton title={'Go to repository'} url={repoURL}/>
                     }
 
                     {
-                        siteURL && <div> site < /div>
+                        siteURL && <LinkButton title={'Go to site'} url={siteURL}/>
                     }
                 </Buttons>
             </Content>
         </Card>
     );
+}
+
+
+function LinkButton({title, url}) {
+
+    const Button = styled.div`
+      width: 200px;
+      padding: 10px 20px;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+    `
+
+    return <a href={url}>
+        <Button>
+            {title}
+        </Button>
+    </a>
 }
 
 export default ProjectCard;

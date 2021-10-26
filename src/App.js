@@ -26,7 +26,6 @@ function App() {
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      border: 1px solid #000;
     `
 
     return (
