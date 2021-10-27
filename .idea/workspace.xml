@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25915db2-b8d2-4b29-ade3-f5082d5b8f4b" name="Default Changelist" comment="build">
-      <change afterPath="$PROJECT_DIR$/src/Components/Cube.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.a0a145e2.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.a0a145e2.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.9ca90b65.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.9ca90b65.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Jakub Radzik alfa.943ee359.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.75387d03.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.75387d03.chunk.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/SocialButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SocialButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Overview/LeftOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/LeftOverview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Overview/Overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/Overview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Overview/RightOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Overview/RightOverview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Documents/Jakub Radzik alfa.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ProjectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +85,8 @@
       <workItem from="1622714485651" duration="129000" />
       <workItem from="1624950857363" duration="427000" />
       <workItem from="1624961471233" duration="118000" />
+      <workItem from="1635267892757" duration="608000" />
+      <workItem from="1635365663311" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="initial 2">
       <created>1620724519996</created>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Tag from "../Common/Tag";
 import Button from "../Common/Button";
 
-function ProjectCard({title, description, stack, repoURL, siteURL, banner, universityRepo}) {
+function ProjectCard({title, description, stack, repoURL, siteURL, banner, universityRepo, frontendRepo}) {
     const background = '#bf5b5b';
     const background2 = '#c14949';
 
@@ -13,10 +13,9 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
       width: 90%;
       max-width: 800px;
       min-height: 650px;
-      outline: 5px solid ${background};
-      outline-offset: -2px;
       border-radius: 20px;
       margin: 20px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     `;
 
     const ImageCard = styled.div`
@@ -50,10 +49,15 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
       transform: translateY(-50px);
     `
 
+    const Tags = styled.div`
+      padding: 0 20px;
+    `
+
     const Description = styled.p`
       padding: 10px 20px;
       text-align: justify;
       margin: 0 2px;
+      font-size: clamp(0.9rem, 3vw, 1.2rem);
     `
 
     const Stack = styled.div`
@@ -62,10 +66,8 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
       justify-content: flex-start;
       align-items: center;
       padding: 10px 20px;
-      margin: 0 2px;
       background: #ffffff;
-      border-top: 5px dashed black;
-      border-bottom: 5px dashed black;
+      border: 5px solid ${background}
     `
 
     const StackImage = styled.img`
@@ -80,10 +82,11 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
       justify-content: center;
       align-items: center;
       padding: 20px 0;
-      @media(min-width: 300px){
+      @media (min-width: 300px) {
         justify-content: space-around;
       }
-      *{
+
+      * {
         background: ${background2};
       }
     `
@@ -93,9 +96,14 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
             <ImageCard/>
             <Title>{title}</Title>
             <Content>
-                {
-                    universityRepo && <Tag text={"University Project"} bgcolor={'#00f'} color={'#fff'}/>
-                }
+                <Tags>
+                    {
+                        universityRepo && <Tag text={"University Project"} bgcolor={'#4646e5'} color={'#fff'}/>
+                    }
+                    {
+                        frontendRepo && <Tag text={"Frontend Project"} bgcolor={'#8b0ae7'} color={'#fff'}/>
+                    }
+                </Tags>
                 <Description>{description}</Description>
                 <Stack>
                     {
@@ -126,6 +134,12 @@ function LinkButton({title, url}) {
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 2px;
+      border: 3px solid black;
+      border-radius: 20px;
+      
+      :hover{
+        background: red;
+      }
     `
 
     return <a href={url}>

@@ -42,6 +42,7 @@ function App() {
                             repoURL={project.repoURL}
                             siteURL={project.siteURL}
                             universityRepo = {project.universityRepo}
+                            frontendRepo = {project.frontendRepo}
                         />
                     )
                 }

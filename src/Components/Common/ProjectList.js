@@ -26,21 +26,23 @@ import bannerAISD from "../../Images/banners/bannerAiSD.png";
 export const Projects = [
     {
         title: "Spaceflight news",
-        description: "Recruitment task to Solvro.",
+        description: "Application responsible for displaying newses about space flights. Listing of all articles or one article with list of favorites. Recruitment task to Solvro.",
         stack: [angular, rxjs, css, html],
         banner: bannerSpaceflight,
         repoURL: "https://github.com/radzikoska123/Rekrutacja",
         siteURL: "https://radzikoska123.github.io/Rekrutacja/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Weather App",
-        description: "My first weather App using React and external API",
+        description: "My first weather App using React and external API. Check weather for next week every day, next two days every hour and current weather in your location.",
         stack: [react, sass],
         banner: bannerWeather,
         repoURL: "https://github.com/radzikoska123/Weather-App",
         siteURL: "https://radzikoska123.github.io/weatherApp/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Devfinder",
@@ -49,7 +51,8 @@ export const Projects = [
         banner: bannerDevfinder,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge7/challenge7",
         siteURL: "https://radzikoska123.github.io/devfinder/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Calculator",
@@ -58,7 +61,8 @@ export const Projects = [
         banner: bannerCalc,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge5",
         siteURL: "https://radzikoska123.github.io/challenge5host/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "IP Tracker",
@@ -67,7 +71,8 @@ export const Projects = [
         banner: bannerIP,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge6",
         siteURL: "https://radzikoska123.github.io/ip-tracker/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "REST Countries API",
@@ -76,7 +81,8 @@ export const Projects = [
         banner: bannerCountries,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge4/challenge4",
         siteURL: "https://radzikoska123.github.io/countries/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Company Site",
@@ -84,7 +90,8 @@ export const Projects = [
         stack: [html, css, javascript],
         banner: bannerBruk,
         siteURL: "https://bruk-systempol.pl/",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Blogr Landing Page",
@@ -92,7 +99,8 @@ export const Projects = [
         stack: [html, css],
         banner: bannerBlogr,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge1",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "3-column preview card component",
@@ -100,7 +108,8 @@ export const Projects = [
         stack: [html, css],
         banner: bannerColumn,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge2",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Chat app CSS illustration",
@@ -108,7 +117,8 @@ export const Projects = [
         stack: [html, css],
         banner: bannerPhone,
         repoURL: "https://github.com/radzikoska123/Challenges/tree/master/Challenge3",
-        universityRepo: false
+        universityRepo: false,
+        frontendRepo: true
     },
     {
         title: "Operating Systems Simulations",
@@ -116,7 +126,8 @@ export const Projects = [
         stack: [java, javascript, php],
         banner: bannerOS,
         repoURL: "https://github.com/radzikoska123/Operating-Systems-Laboratory",
-        universityRepo: true
+        universityRepo: true,
+        frontendRepo: false
     },
     {
         title: "Algorithms and Data Structures",
@@ -124,6 +135,7 @@ export const Projects = [
         stack: [java],
         banner: bannerAISD,
         repoURL: "https://github.com/radzikoska123/Algorithms-and-data-structures",
-        universityRepo: true
+        universityRepo: true,
+        frontendRepo: false
     }
 ];
