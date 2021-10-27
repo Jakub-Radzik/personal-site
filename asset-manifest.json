@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.eac0ac7a.chunk.css",
-    "main.js": "/static/js/main.b50989c5.chunk.js",
-    "main.js.map": "/static/js/main.b50989c5.chunk.js.map",
+    "main.css": "/static/css/main.1492acd7.chunk.css",
+    "main.js": "/static/js/main.8848c328.chunk.js",
+    "main.js.map": "/static/js/main.8848c328.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.12f5d586.js",
     "runtime-main.js.map": "/static/js/runtime-main.12f5d586.js.map",
     "static/js/2.ccc9c70d.chunk.js": "/static/js/2.ccc9c70d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d9cca8d3.chunk.js": "/static/js/3.d9cca8d3.chunk.js",
     "static/js/3.d9cca8d3.chunk.js.map": "/static/js/3.d9cca8d3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eac0ac7a.chunk.css.map": "/static/css/main.eac0ac7a.chunk.css.map",
+    "static/css/main.1492acd7.chunk.css.map": "/static/css/main.1492acd7.chunk.css.map",
     "static/js/2.ccc9c70d.chunk.js.LICENSE.txt": "/static/js/2.ccc9c70d.chunk.js.LICENSE.txt",
     "static/media/Jakub Radzik CV ENG.9a5821d4.pdf": "/static/media/Jakub Radzik CV ENG.9a5821d4.pdf",
     "static/media/Jakub Radzik CV PL.2971e215.pdf": "/static/media/Jakub Radzik CV PL.2971e215.pdf",
@@ -27,6 +27,7 @@
     "static/media/bannerOS.94de1fb9.jpg": "/static/media/bannerOS.94de1fb9.jpg",
     "static/media/bannerPhone.807b232a.jpg": "/static/media/bannerPhone.807b232a.jpg",
     "static/media/bannerSpaceflight.310aefe3.png": "/static/media/bannerSpaceflight.310aefe3.png",
+    "static/media/c++.0a81196c.png": "/static/media/c++.0a81196c.png",
     "static/media/css-3.463e319b.png": "/static/media/css-3.463e319b.png",
     "static/media/cv.2cf21801.png": "/static/media/cv.2cf21801.png",
     "static/media/github.f1102180.png": "/static/media/github.f1102180.png",
@@ -38,12 +39,13 @@
     "static/media/redux.df7d6546.png": "/static/media/redux.df7d6546.png",
     "static/media/rxjs.43cf49dc.png": "/static/media/rxjs.43cf49dc.png",
     "static/media/sass.91714f74.png": "/static/media/sass.91714f74.png",
-    "static/media/telegram2.e9722f26.png": "/static/media/telegram2.e9722f26.png"
+    "static/media/telegram2.e9722f26.png": "/static/media/telegram2.e9722f26.png",
+    "static/media/working.73d9be64.png": "/static/media/working.73d9be64.png"
   },
   "entrypoints": [
     "static/js/runtime-main.12f5d586.js",
     "static/js/2.ccc9c70d.chunk.js",
-    "static/css/main.eac0ac7a.chunk.css",
-    "static/js/main.b50989c5.chunk.js"
+    "static/css/main.1492acd7.chunk.css",
+    "static/js/main.8848c328.chunk.js"
   ]
 }
