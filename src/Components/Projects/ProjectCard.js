@@ -67,12 +67,13 @@ function ProjectCard({title, description, stack, repoURL, siteURL, banner, unive
       align-items: center;
       padding: 10px 20px;
       background: #ffffff;
-      border: 5px solid ${background}
+      border: 5px solid ${background};
+      border-radius: 20px;
     `
 
     const StackImage = styled.img`
-      width: 50px;
-      margin: 0 20px 0 0;
+      width: clamp(2rem, 10%, 4rem);
+      margin: 0 15px 0 0;
     `;
 
     const Buttons = styled.div`
@@ -131,14 +132,16 @@ function LinkButton({title, url}) {
       width: 200px;
       padding: 10px 20px;
       color: white;
+      background: #00e6ff;
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 2px;
-      border: 3px solid black;
-      border-radius: 20px;
-      
-      :hover{
-        background: red;
+      border-radius: 10px;
+      transition-duration: 0.5s;
+
+      :hover {
+        background: #00a6ff;
+        letter-spacing: 3px;
       }
     `
 
